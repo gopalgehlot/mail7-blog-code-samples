@@ -1,9 +1,9 @@
 # mail7-blog-code-samples
 
-##About to initial understanding and run the project
+## About to initial understanding and run the project
 --------------------------------------------------
 
-##Here are some easy steps to start working on the test cases:
+## Here are some easy steps to start working on the test cases:
 
  1. Implementation for APIs in node.js.
  2. Download and install node.js.
@@ -15,9 +15,9 @@
  2. Run the command to install necessary modules to run the project: npm install.
  3. Run the command to install nightwatch globally: npm install nightwatch -g
 
-###Run the Test cases:
+### Run the Test cases:
 ---------------------
-##Run the whole test cases at once
+## Run the whole test cases at once
 
  1. Run the command `node nightwatch.js`. it will
     execute all the test cases even in the sub-directories for the given
@@ -25,7 +25,7 @@
  2. Getting HTML report after completing whole tests
     Use the following command: `node nightwatch.js --reporter html-reporter.js`
 
-##Run individual test cases**
+## Run individual test cases**
  1. Go to the directory path in all the cases you want to execute i.e. `/test`
  2. Run the command `node nightwatch.js` it will execute all the test cases even in the
     sub-directories for the given environment server.
